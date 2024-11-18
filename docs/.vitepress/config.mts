@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/vitepress-ob/dist/',
-  outDir: '../dist',
+  base: '/vitepress-ob/',
+  outDir: '../dist/',
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
